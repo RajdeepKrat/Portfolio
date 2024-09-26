@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+
+.gradient-background {
+    background: linear-gradient(300deg, #000, #313131, #525252, #EEEEEE, #ffff);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    padding: 20px;
+    text-align: center;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.name{
+    font-family: "Handjet", sans-serif;
+    color: #EEEEEE;
+}
+
+.int{
+    font-family: "Handjet", sans-serif;
+
+}
+
+.fet{
+    font-family: "Handjet", sans-serif;
+}
+
+.con{
+    font-family: "Handjet", sans-serif;
+}
+.github{
+    height: 100px;
+}
+.foot{
+    
+
+}
+
+.git{
+    color: #EEEEEE;
+    font-family: "Handjet", sans-serif;
+    font-weight: bolder;
+}
+
+
+/* Button Styling */
+.btn {
+    font-size: larger;
+    font-family: "Handjet", sans-serif;
+    background-color: #313131;
+    color: #EEEEEE;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Button Hover Animation */
+.btn:hover {
+    background-color: #EEEEEE;
+    color: #313131;
+}
+
+
+.foot {
+    margin-top: 30px;
+    font-family: "Handjet", sans-serif;
+    width: 100%; 
+    padding: 20px;
+    background: linear-gradient(300deg, #000, #313131, #525252, #EEEEEE, #ffff); /* Keeping the background style */
+    background-size: 180% 180%; /* Gradient animation */
+    text-align: center;
+}
+
+.foot img {
+    display: block;
+    margin: 0 auto; /* Center the images */
+}
+
+.d-flex > div {
+    margin-left: 50px;
+    margin-right: 50px; /* Add spacing between the logos */
+}
+
+h4 {
+    margin-top: 10px;
+    color: #EEEEEE;
+}
+
+.ftr {
+    margin-top: 20px;
+    color: #EEEEEE;
+    font-size: large;
+}
+
+.cont{
+    font-family: "Handjet", sans-serif;   
+}
+
+.phn{
+    height: 150px;
+    width: 150px;
+}
+
+.gml{
+    height: 150px;
+    width: 150px;
+}
+
